@@ -1,11 +1,15 @@
 #include <stdio.h>
+
 /**
- * main -Entry Point 
+ * main -Entry Point
+ *
+ * print a line of code using printf
  *
  * Return: Always 0 (success)
- */
+*/
+
 int main(void)
 {
 	printf("\"With proper grammar, but the outcome is a piece of art,, followed by a new line");
-        return (0);
-}	
+	return (0);
+}
