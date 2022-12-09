@@ -5,11 +5,11 @@
  *
  * print a line of code using puts
  *
- * Return: 0 Always (success) 
-*/ 
+ * Return: 0 Always (success)
+*/
 
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
-}	
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
