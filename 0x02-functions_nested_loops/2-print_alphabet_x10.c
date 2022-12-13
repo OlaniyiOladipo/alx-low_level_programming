@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_v10 - prints alphabet 10 time
+ * main - print_alphabet_x10 -prints alphabet 10 time
  * Return: void
  */
 
@@ -17,12 +17,12 @@ void print_alphabet_x10(void)
 		
 		while (c <= 'z')
 		{
-			_putchar;(c)
+			_putchar(c);
 			c++;
 		}
 		_putchar('\n');
 		i++;
-	
+
 	}
 
 }
