@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * _isuppler - checks upper case
+ * @c: print int
+ * Return: give 1 or 0
+ */
+
+int int _isupper(int c);
+{
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
+
+}
+
