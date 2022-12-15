@@ -8,7 +8,7 @@
 
 int main(void)
 {
-
+	
 int p = 100;
 int i;
 
@@ -45,4 +45,3 @@ i++;
 printf("\n");
 return (0);
 }
-
