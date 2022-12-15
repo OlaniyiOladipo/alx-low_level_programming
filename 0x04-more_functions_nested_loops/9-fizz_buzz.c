@@ -1,47 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Return: void
+ * main - prints buzz each numbers of 3 and 5
+ * Return: Always 0
  */
 
 int main(void)
 {
+	int n;
 
-int p = 100;
-int i;
-
-i = 1;
-while (i <= p)
-{
-if (i % 3 == 0 && i % 5 == 0)
-{
-printf("FizzBuzz");
-}
-
-else if (i % 3 == 0)
-{
-printf("fizz");
-}
-
-else if (i % 5 == 0)
-{
-if (i < p)
-printf("buzz");
-
-else
-printf("buzz");
-}
-
-else
-{
-printf("%i", i);
-}
-
-i++;
-
-}
-printf("\n");
-return (0);
-}
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
+	{
+		if ((n % 3 == 0) && (n % 5 == 0))
+		{
+			printf("fizzbuzz");
+		}
+		else if (n % 3 == 0)
+		{
+			printf("fizz");
+		}
+		else if (n % 5 == 0)
+		{
+			printf("buzz");
+		}
+		else
+		{
+			printf("%d", n);
+		}
+	}
+	printf("\n");
+	return (0);
