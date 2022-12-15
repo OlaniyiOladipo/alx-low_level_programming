@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_isuppler - checks upper case
+ *_isuppler - checks if parameter is an upper class
  * @c: print int
- * Return: give 1 or 0
+ * Return: 1 if is an uppercase character, 0 in other case
  */
 
 int _isupper(int c)
