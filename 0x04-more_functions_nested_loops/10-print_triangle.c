@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @size: numbers of line
- * Return: no return
+ * print_triangle - check for a digit
+ * @size: integer type
+ * Return: void
  */
 
 void print_triangle(int size)
-
 {
 	int i, j;
 
