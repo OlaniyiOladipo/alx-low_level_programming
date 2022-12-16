@@ -6,7 +6,8 @@
  * Return: no return.
  */
 
-void print_triangle(int size);
+void print_triangle(int size)
+
 {
 	int i, j;
 
