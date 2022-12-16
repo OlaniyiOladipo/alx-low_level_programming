@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_triangle - check for a digit
+ * print_triangle - prints a triangle
  * @size: numbers of line.
  * Return: no return.
  */
 
-void print_triangle(int size)
+void print_triangle(int size);
 {
 	int i, j;
 
