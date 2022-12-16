@@ -2,32 +2,22 @@
 
 /**
  * print_triangle - check for a digit
- * @size: integer type
- * Return: void
+ * @size: numbers of line.
+ * Return: no return.
  */
 
 void print_triangle(int size)
 {
-	int i = 1, ii;
+	int i, j;
 
-	while (i <= size && size > 0)
+	for (i = 0; i < size; i++)
 	{
-		ii = 0;
-		while (ii < size - i)
-		{
+		for (j = i; j < (size - 1); j++)
 			_putchar(' ');
-			ii++;
-		}
-		ii = 0;
-		while (ii < i)
-		{
-			_putchar('#');
-			ii++;
-		}
-
-		_putchar('\n');
-		i++;
+		for (j--; j < size; j++)
+			_putchar(35);
+		if (i < (size - 1))
+			_putchar('\n');
 	}
-	if (i == 1)
-		_putchar('\n');
+	_putchar('\n');
 }
