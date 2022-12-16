@@ -2,23 +2,22 @@
 
 /**
  * print_triangle - prints a triangle
- * @size: numbers of line.
- * Return: no return.
+ * @size: numbers of lines
+ * Return : Always 0 (Sucess)
  */
 
 void print_triangle(int size)
 {
 	int i, j;
-	
+
 	for (i = 0; i < size; i++)
 	{
-		for (j = i; j < (size - 1); j++)
+		for (j = 1; j < (size - 1); j++)
 			_putchar(' ');
 		for (j--; j < size; j++)
 			_putchar(35);
 		if (i < (size - 1))
-			
-		_putchar('\n');
+			_putchar('\n');
 	}
 	_putchar('\n');
 }
