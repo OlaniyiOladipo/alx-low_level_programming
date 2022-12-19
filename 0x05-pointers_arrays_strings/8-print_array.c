@@ -8,7 +8,7 @@
  * Return: nothing
  */
 
-void print_aay(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i = 0;
 
@@ -17,8 +17,8 @@ void print_aay(int *a, int n)
 	{
 		printf("%d", a[i]);
 		if (i < n - 1)
-
-		       printf(", ");
+			printf(", ");
+		i++;
 	}
 	printf("\n");
 }
