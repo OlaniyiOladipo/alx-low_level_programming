@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat - fucntion concantenate two strings
+ * _strncat - fucntion concantenate two strings
  * @dest: pointer destination
  * @src: pointer of bytes
  * @n: number of byte to receive
